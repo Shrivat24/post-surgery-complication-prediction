@@ -1,0 +1,17 @@
+=== Logistic Regression with tuned threshold ===
+
+Confusion matrix (threshold = 0.3):
+[[ 2 11]
+ [ 1  4]]
+
+Classification report (threshold = 0.3):
+              precision    recall  f1-score   support
+
+           0       0.67      0.15      0.25        13
+           1       0.27      0.80      0.40         5
+
+    accuracy                           0.33        18
+   macro avg       0.47      0.48      0.33        18
+weighted avg       0.56      0.33      0.29        18
+
+ROC-AUC: 0.385
