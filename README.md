@@ -30,8 +30,37 @@ python -m src.train_model
 streamlit run app/app.py
 
 
+# 🩺 Post-Surgery Complication Prediction
 
-## 🔗 Live Demo
+This project predicts whether a post-operative patient is at **low risk (safe for discharge)** or **high risk (requires monitoring)** using clinical parameters.
 
-Try the live app here:  
+---
+
+### 🚀 Live Demo
+
+Try the deployed app here:
+
 👉 https://post-surgery-complication-prediction-y8vsdffekr3yvpzxzx23bt.streamlit.app/
+
+---
+
+### 🧠 Model Info
+
+- Logistic Regression classifier
+- Class imbalance addressed with class weights
+- Threshold optimized to increase recall for high-risk patients
+
+---
+
+### 📂 Project Structure
+
+### 🛠 Tech Stack
+
+- Python  
+- Pandas, NumPy  
+- Scikit-Learn  
+- Streamlit  
+
+---
+
+⚠️ *This project is for research & learning purposes — not for real clinical use.*
