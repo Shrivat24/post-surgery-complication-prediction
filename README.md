@@ -28,3 +28,10 @@ App:
 pip install -r requirements.txt
 python -m src.train_model
 streamlit run app/app.py
+
+
+
+## 🔗 Live Demo
+
+Try the live app here:  
+👉 https://post-surgery-complication-prediction-y8vsdffekr3yvpzxzx23bt.streamlit.app/
